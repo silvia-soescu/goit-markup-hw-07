@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="generic-container">
+      <header class="generic-header">
+        <div class="global-header">
+          <a class="header-logo" href="#"> <span>Web</span>Studio</a>
+          <nav class="main-navigation">
+            <ul>
+              <li><a href="index.html">Studio</a></li>
+              <li><a id="current" href="portfolio.html">Portfolio</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="contact-links">
+            <div class="contact-email">
+              <svg class="icon">
+                <use href="./images/symbol-defs.svg#icon-envelope" />
+              </svg>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+            <div class="contact-number">
+              <svg class="icon">
+                <use href="./images/symbol-defs.svg#icon-smartphone" />
+              </svg>
+              <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-portofolio">
+        <!-- Filter section -->
+        <div class="portofolio-content">
+          <section class="portofolio-buttons">
+            <ul>
+              <li>
+                <button class="filter-button" type="button">All</button>
+              </li>
+              <li>
+                <button class="filter-button" type="button">Web-sites</button>
+              </li>
+              <li>
+                <button class="filter-button" type="button">Apps</button>
+              </li>
+              <li>
+                <button class="filter-button" type="button">Design</button>
+              </li>
+              <li>
+                <button class="filter-button" type="button">Marketing</button>
+              </li>
+            </ul>
+          </section>
+          <!-- Portofolio images -->
+
+          <div class="portofolio-list">
+            <ul>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/technoduck.jpg"
+                    alt="technoduck website"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Technoduck is a state-of-the-art coronavirus distribution
+                      platform. Companies use this platform for digital
+                      espionage and attacks on competitors' secure servers.
+                    </p>
+                  </div>
+                </div>
+                <div class="portofolio-item">
+                  <h3>Technoduck</h3>
+                  <span>Web-site</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/poster-neworlean-vs-golden-star.jpg"
+                    alt="poster New Orlean vs Golden Star design"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+                <div class="portofolio-item">
+                  <h3>Poster New Orlean vs Golden Star</h3>
+                  <span>Design</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/seafood-restaurant.jpg"
+                    alt="seafood restaurant app"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Seafood Restaurant</h3>
+                  <span>Apps</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/project-prime.jpg"
+                    alt="project prime marketing"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Project Prime</h3>
+                  <span>Marketing</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/project-boxes.jpg"
+                    alt="project boxes app"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Project Boxes</h3>
+                  <span>Apps</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/inspiration-has-no-borders.jpg"
+                    alt="inspiration has no borders web-site"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Inspiration has no Borders</h3>
+                  <span>Web-site</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/limited-edition.jpg"
+                    alt="limited edition design"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Limited Edition</h3>
+                  <span>Design</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/project-lab.jpg"
+                    alt="project lab marketing"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Project LAB</h3>
+                  <span>Marketing</span>
+                </div>
+              </li>
+              <li class="portofolio-cards">
+                <div class="portofolio-parent">
+                  <img
+                    class="portofolio-images"
+                    src="images/growing-business-apps.jpg"
+                    alt="growing business app"
+                  />
+                  <div class="card-transition">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quas praesentium quasi vero beatae, possimus debitis
+                      obcaecati libero corrupti distinctio cum ea doloribus
+                      omnis totam. Hic, quo.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="portofolio-item">
+                  <h3>Growing Business</h3>
+                  <span>Apps</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class="global-footer">
+        <div class="footer-container">
+          <div class="global-footer-address">
+            <a class="footer-logo" href="#"><span>Web</span>Studio</a>
+            <address class="footer-address">
+              695 Park Ave, NY 10065, USA <br />
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
+              <a href="tel:+12127724150">+1 212-772-4150</a>
+            </address>
+          </div>
+          <div class="footer-social-links">
+            <h3>Find us on</h3>
+            <ul>
+              <li class="footer-item">
+                <a href="#"
+                  ><svg>
+                    <use href="./images/symbol-defs.svg#icon-instagram" />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="#"
+                  ><svg>
+                    <use href="./images/symbol-defs.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="#"
+                  ><svg>
+                    <use href="./images/symbol-defs.svg#icon-facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="#">
+                  <svg>
+                    <use href="./images/symbol-defs.svg#icon-linkedin" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="newsletter-container">
+            <label class="footer-label" for="email"
+              >Subscribe to the newsletter</label
+            >
+            <div class="subscribe-container">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                autocomplete="off"
+              />
+              <button class="subscribe-button" type="submit">
+                <span>Subscribe</span>
+                <svg>
+                  <use href="/images/symbol-defs.svg#icon-icon-send" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
