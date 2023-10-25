@@ -2177,6 +2177,7 @@ height: 92px;
     border-radius: 4px;
     background-color: var(--visited-link-color);
     color: #fff;
+    fill: #fff;
     font-size: 16px;
     font-weight: 700;
     display: flex;
