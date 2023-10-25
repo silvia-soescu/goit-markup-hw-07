@@ -2152,6 +2152,7 @@ height: 92px;
       display: flex;
       align-items: row;
       align-items: center;
+      justify-content: center;
       gap: 12px;
   }
 
