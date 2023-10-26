@@ -1245,7 +1245,7 @@
 
     <!-- Modal -->
     <div class="modal is-hidden" data-modal>
-      <div class="modal-content-mobile">
+      <div class="modal-content">
         <button class="close-button" data-modal-close>&times;</button>
 
         <form
@@ -1345,106 +1345,6 @@
           <button class="main-form-button" type="submit">Send</button>
         </form>
       </div>
-
-      <div class="modal-content-desktop">
-        <button class="close-button" data-modal-close>&times;</button>
-
-        <form
-          class="reqest-service-form"
-          action=""
-          method="get"
-          autocomplete="off"
-        >
-          <b class="form-title-desktop"
-            >Leave your information and we'll call you back</b
-          >
-          <div class="form-section">
-            <label class="modal-label" for="name">Name</label>
-            <div class="input-container">
-              <input
-                class="textfield"
-                type="text"
-                name="name"
-                id="name"
-                required
-                autocomplete="off"
-              />
-              <svg>
-                <use href="./images/symbol-defs.svg#icon-person-black" />
-              </svg>
-            </div>
-          </div>
-
-          <div class="form-section">
-            <label class="modal-label" for="telephone">Telephone</label>
-            <div class="input-container">
-              <input
-                class="textfield"
-                type="tel"
-                name="telephone"
-                id="telephone"
-                required
-                autocomplete="off"
-              />
-              <svg>
-                <use href="./images/symbol-defs.svg#icon-phone-black" />
-              </svg>
-            </div>
-          </div>
-
-          <div class="form-section">
-            <label class="modal-label" for="email">E-mail</label>
-            <div class="input-container">
-              <input
-                class="textfield"
-                type="email"
-                name="email"
-                id="email"
-                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-                autocomplete="off"
-                required
-              />
-              <svg>
-                <use href="./images/symbol-defs.svg#icon-email-black" />
-              </svg>
-            </div>
-          </div>
-          <div class="form-section">
-            <label class="modal-label"
-              >Comments
-              <textarea
-                name="comments"
-                rows="5"
-                placeholder="Enter the text"
-                autocomplete="off"
-              ></textarea>
-            </label>
-          </div>
-
-          <div class="terms-and-conditions-container">
-            <label class="checkbox-label" for="terms-and-conditions-check">
-              <input
-                class="checkbox-input"
-                type="checkbox"
-                name="terms-and-conditions-check"
-                id="terms-and-conditions-check"
-              />
-              <svg class="icon-checkbox">
-                <use
-                  href="./images/symbol-defs.svg#icon-check"
-                  width="13"
-                  height="13"
-                />
-              </svg>
-              <span class="terms-and-conditions-text-desktop"
-                >I agree with the letter and accept the
-                <a href="#">Terms and Conditions</a></span
-              >
-            </label>
-          </div>
-
-          <button class="main-form-button" type="submit">Send</button>
-        </form>
       </div>
     </div>
 
