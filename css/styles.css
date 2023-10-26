@@ -1349,7 +1349,7 @@ input:checked {
                     display: block;
                     gap: 10px;
                     margin-right: auto;
-                    margin-left: 114px;
+                    margin-left: 98px;
                     font-size: 14px;
                     font-weight: 500;
                 }
@@ -2190,6 +2190,7 @@ height: 92px;
       width: 24px;
       height: 24px;
       flex-shrink: 0;
+      fill: #fff;
 
   }
 
