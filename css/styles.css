@@ -1419,6 +1419,8 @@ input:checked {
     display: none;
   }  
 
+
+
   /* About us Tablet */
 
 .hero-section-list-tablet {
@@ -1651,6 +1653,217 @@ input:checked {
     fill: var(--visited-link-color);
     border: 1px solid var(--visited-link-color);
     transition: fill var(--transition), border var(--transition);
+}
+
+.global-footer-desktop {
+    display: none;
+}
+
+.global-footer-mobile {
+    display: none;
+}
+
+.global-footer-tablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 604px;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container-tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.footer-logo-address-tablet {
+    display: flex;
+    flex-direction: column;
+}
+
+.global-footer-address-tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-contacts-tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+.tablet-footer-logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tablet-footer-logo span {
+    color: var(--visited-link-color)
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    padding-top: 28px;
+}
+
+.footer-address a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address a:hover {
+    color: var(--visited-link-color);
+    transition: fill var(--transition), background-color var(--transition),
+        color var(--transition);
+}
+
+.footer-social-links-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 165px;
+}
+
+.footer-social-links-tablet h3 {
+    text-transform: uppercase;
+}
+
+.footer-social-links-tablet ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0, auto;
+    padding: 0;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.footer-item {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-item a {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-item svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+
+}
+
+.footer-item:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #fff;
+    background-color: var(--visited-link-color);
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color var(--transition),
+        color var(--transition);
+}
+
+.newsletter-container-tablet {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.footer-label {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.subscribe-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-input {
+    color: #fff;
+    background-color: var(--background-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 358px;
+    height: 50px;
+}
+
+.footer-input:focus {
+    border: 1px solid var(--visited-link-color);
+
+}
+
+.subscribe-button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid var(--visited-link-color);
+    border-radius: 4px;
+    background-color: var(--visited-link-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    box-shadow:
+        0px 1px 1px 0px rgba(33, 33, 33, 0.2),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.subscribe-container svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+
 }
 
 }
