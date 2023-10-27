@@ -77,7 +77,9 @@ body h2 {
      position: absolute;
     top: 10px;
     right: 15px;
+    cursor: pointer;
 }
+
 
 .menu-button .header-logo {
     font-size: 26px;
@@ -565,6 +567,10 @@ margin: 0 auto;
 
 
 /* footer styles */
+.global-footer-tablet {
+    display: none;
+}
+
 
 .global-footer-desktop {
     display: none;
@@ -1222,6 +1228,7 @@ input:checked {
 
  .js-menu-container .js-close-menu svg:hover {
     fill: var(--visited-link-color);
+    transition: color var(--transition);
  }
 
 
@@ -1251,6 +1258,7 @@ input:checked {
 
   .drawer-navigation-items a:hover {
       color: var(--visited-link-color);
+        transition: color var(--transition);
   }
 
   .drawer-navigation-contact {
@@ -1277,6 +1285,7 @@ input:checked {
   .drawer-navigation-contact a:focus,
 .drawer-navigation-contact a:hover {
     color: var(--visited-link-color);
+    transition: color var(--transition)
 }
   .drawer-navigation-social-media {
     display: flex;
@@ -1305,6 +1314,7 @@ input:checked {
 
   .drawer-navigation-social-media a:hover {
     color: var(--visited-link-color);
+    transition: color var(--transition)
   }
   
 
@@ -2411,6 +2421,9 @@ height: 92px;
      pointer-events: none;
  }
 
+.global-footer-tablet {
+    display: none;
+}
 
 }
 
